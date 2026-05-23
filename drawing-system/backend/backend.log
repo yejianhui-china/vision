@@ -1,0 +1,180 @@
+INFO:     Started server process [92936]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8005 (Press CTRL+C to quit)
+INFO:     127.0.0.1:2363 - "POST /api/designer/parts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:2844 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2846 - "GET /api/designer/part-number-rules HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2848 - "POST /api/designer/parts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:2936 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:2931 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2946 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2933 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2932 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2934 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2935 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2971 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:2968 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2966 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2967 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2969 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2970 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2976 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2992 - "GET /api/designer/part-number-rules HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3003 - "GET /api/designer/part-number-preview?nature_code=ZS&category_code=CP&subcategory_code=ZJ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7816 - "POST /api/designer/parts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:7819 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7822 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7827 - "POST /api/bom HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:7870 - "POST /api/bom HTTP/1.1" 201 Created
+INFO:     127.0.0.1:7876 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7894 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:7888 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7893 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7889 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7892 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7887 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7898 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7915 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7924 - "GET /api/bom/materials?type=product HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7943 - "GET /api/bom/materials?type=semi_product HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6169 - "POST /api/bom HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:7624 - "POST /api/bom HTTP/1.1" 201 Created
+INFO:     127.0.0.1:7783 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8448 - "POST /api/bom HTTP/1.1" 201 Created
+INFO:     127.0.0.1:1794 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2050 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:2047 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2045 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2048 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2046 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2049 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2054 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2073 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:2068 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2070 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2069 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2071 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2072 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2076 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2090 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2094 - "GET /api/bom/tree/22 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2098 - "GET /api/bom/tree/23 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2101 - "GET /api/bom/tree/24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2104 - "GET /api/bom/tree/25 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2109 - "GET /api/bom/tree/26 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2112 - "GET /api/bom/tree/27 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2130 - "GET /api/bom/tree/22 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2135 - "GET /api/bom/tree/21 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2144 - "GET /api/bom/tree/20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2156 - "GET /api/bom/tree/19 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2163 - "GET /api/bom/tree/18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2166 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2176 - "POST /api/bom HTTP/1.1" 201 Created
+INFO:     127.0.0.1:2180 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2192 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:2188 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2189 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2191 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2190 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2194 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2197 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2216 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2220 - "GET /api/bom/tree/22 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2243 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:2238 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2239 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2241 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2240 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2242 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2246 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2260 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2269 - "POST /api/bom HTTP/1.1" 201 Created
+INFO:     127.0.0.1:2272 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2289 - "GET /api/bom/tree/25 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2295 - "GET /api/bom/tree/26 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2298 - "GET /api/bom/tree/27 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2301 - "GET /api/bom/tree/25 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2324 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7970 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12986 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:12983 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12982 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12984 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12981 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12985 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12989 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8654 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8658 - "GET /api/bom/tree/22 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8670 - "GET /api/bom/tree/22 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8677 - "GET /api/bom/tree/26 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8689 - "GET /api/bom/tree/27 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8694 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8701 - "GET /api/bom/tree/18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8704 - "GET /api/bom/tree/17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8715 - "GET /api/bom/tree/22 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8718 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8721 - "POST /api/bom HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:8764 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:8760 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8761 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8763 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8762 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8759 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8767 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8781 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8822 - "POST /api/bom HTTP/1.1" 201 Created
+INFO:     127.0.0.1:8825 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8846 - "POST /api/bom HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:13887 - "POST /api/bom HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:13965 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6869 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6944 - "POST /api/bom HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:6999 - "POST /api/bom HTTP/1.1" 201 Created
+INFO:     127.0.0.1:8460 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10557 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:10554 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10556 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10552 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10553 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10555 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10561 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10582 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10603 - "GET /api/bom/tree/22 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10611 - "GET /api/bom/tree/23 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12990 - "GET /api/bom/tree/20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12995 - "GET /api/bom/tree/19 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12999 - "GET /api/bom/tree/18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13002 - "GET /api/bom/tree/20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13012 - "POST /api/bom HTTP/1.1" 201 Created
+INFO:     127.0.0.1:13016 - "GET /api/bom/tree/20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13026 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6408 - "GET /api/bom/tree/19 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6445 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:6440 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6441 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6444 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6443 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6442 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6450 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6484 - "GET /api/bom/tree/19 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6490 - "GET /api/bom/tree/19 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6495 - "GET /api/bom/tree/20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6500 - "GET /api/bom/tree/19 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6503 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9934 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:9931 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9932 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9933 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9930 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9929 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9937 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9955 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14759 - "GET /api/roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14764 - "GET /api/users/roles HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:14760 - "GET /api/product-models?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14762 - "GET /api/product-models?limit=999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14763 - "GET /api/bom/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14761 - "GET /api/designer/parts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14771 - "GET /api/users?skip=0&limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14789 - "GET /api/bom/tree/28 HTTP/1.1" 200 OK
